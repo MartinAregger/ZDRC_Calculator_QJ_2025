@@ -1,0 +1,6 @@
+mch_lut/
+new_lut/
+Testfiles/
+*pyc
+
+zdr_column_code/__pycache__/

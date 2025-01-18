@@ -1,0 +1,31 @@
+{
+    "config_zdrc_publication_version": {
+        "bias_correction": false,
+        "rhohv_filter": true,
+        "moving_average_filter": true,
+        "bias_value": 0,
+        "rad_list": [
+            "A",
+            "D",
+            "L",
+            "P",
+            "W"
+        ],
+        "rhohv_threshold": 0.8,
+        "moving_average_window": 3,
+        "max_radar_range_km": 140,
+        "min_radar_range_km": 0,
+        "maximum_number_of_allowed_missing_radars": 2,
+
+        "apply_reflectivity_filter": true,
+        "apply_contiguity_filter": true,
+        "min_zdr_column_height_filter": true,
+        "apply_gaussian_filter": false,
+        "reflectivity_threshold": 30,
+        "zdr_db_threshold": 2,
+        "min_zdr_column_height_filter_threshold":   600,
+        "contiguous_column_size_filter_pixel_threshold":  3,
+        "gaussian_filter_sigma": 1,
+        "gaussian_filter_truncate": 0.3
+    }
+}

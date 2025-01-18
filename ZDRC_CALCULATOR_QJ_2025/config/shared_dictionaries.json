@@ -1,0 +1,81 @@
+{
+    "RADAR_PRODUCT_FILE_ENDING_REGEX_PATTERNS": {
+        "dBZC": "2400.+.845",
+        "dLZC": "2400.+.801",
+        "dMZC": "2400.+.850",
+        "dCZC": "2400.+.801",
+        "BZC": ".+.845",
+        "BZCH": ".+.845",
+        "EZC15": ".+.815",
+        "EZC45": ".+.845",
+        "EZC50": ".+.850",
+        "MZC": ".+.850",
+        "MZCH": ".+.850",
+        "LZC": ".+.801",
+        "RZC": ".+.801",
+        "CZC": ".+.801",
+        "HZT": ".+.800",
+        "TRTC": ".+.trt",
+        "RDT": ".+.rdt",
+        "YM": ".+.8",
+        "ML": ".+.0",
+        "MH": ".+.0"
+    },
+
+    "CH1903_PROJECTION_DICT": {
+        "proj": "somerc",
+        "lon_0": 7.43958333333333,
+        "lat_0": 46.9524055555556,
+        "k_0": 1,
+        "x_0": 600000,
+        "y_0": 200000,
+        "ellps": "bessel",
+        "towgs84": "674.374,15.056,405.346,0,0,0,0",
+        "units": "m",
+        "no_defs": ""
+    },
+    "PYPROJ_PROJ_KWRDS_TO_CARTOPY": {
+        "lon_0": "central_longitude",
+        "lat_0": "central_latitude",
+        "lat_ts": "true_scale_latitude",
+        "x_0": "false_easting",
+        "y_0": "false_northing",
+        "k": "scale_factor",
+        "zone": "zone"
+    },
+    
+    "PYPROJ_GLOB_KWRDS_TO_CARTOPY":{
+        "a": "semimajor_axis",
+        "b": "semiminor_axis",
+        "datum": "datum",
+        "ellps": "ellipse",
+        "f": "flattening",
+        "rf": "inverse_flattening"
+    },
+    "RADAR_GEODATA": {
+        "projection": "+proj=somerc  +lon_0=7.43958333333333 +lat_0=46.9524055555556 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs",
+        "x1": 255000.0,
+        "y1": -160000.0,
+        "x2": 965000.0,
+        "y2": 480000.0,
+        "xpixelsize": 1000.0,
+        "ypixelsize": 1000.0,
+        "cartesian_unit": "m",
+        "yorigin": "upper"
+    },
+    "radar_location_dict":{
+        "A": ["681", "238", "938"],
+        "L": ["708", "100", "1626"],
+        "D": ["497", "142", "1682"],
+        "P": ["604", "135", "2937"],
+        "W": ["780", "190", "2850"]
+    },
+    "radar_short_full_name_dict":{
+        "A": "albis",
+        "D": "dole",
+        "L": "lema",
+        "P": "ppm",
+        "W": "wei"
+
+    }
+}

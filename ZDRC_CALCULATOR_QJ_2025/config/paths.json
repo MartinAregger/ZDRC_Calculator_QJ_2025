@@ -1,0 +1,13 @@
+{
+    "RESULT_PLOT_DIRECTORY":"Testoutput/Plot",
+    "RESULT_STATISTICS_DIRECTORY":"Testoutput/Statistics",
+    "LUT_DIRECTORY":"new_lut",
+    "MLX_DIRECTORY":"Testfiles/MLX_files",
+    "CZC_DIRECTORY":"Testfiles/CZC_file",
+    "HZT_DIRECTORY":"Testfiles/HZT_file",
+    "COMPOSITE_DIRECTORY":"Testoutput/composites",
+
+    "POLAR_DATA_DIRECTORY":"Testfiles_npy/polar_data",
+    "MAXECHO_DIRECTORY":"Testfiles_npy/maxecho",
+    "H0_DIRECTORY":"Testfiles_npy/H0"
+}
