@@ -107,6 +107,7 @@ def polar_to_cartesian_single_radar(
         mlx_path = f"{paths['MLX_DIRECTORY']}/{mlx_filename}"
 
         try:
+            # commented is the code to read the data in the proprietary format. Here we alternatively add the possibility to load the data from a numpy file.
             # zdr = radlib.read_file(file=mlx_path, physic_value=True, moment="ZDR").data
             # np.save(f"{paths['POLAR_DATA_DIRECTORY']}/{mlx_filename}_ZDR.npy", zdr)
 
@@ -132,6 +133,7 @@ def polar_to_cartesian_single_radar(
         # rhohv filtering
         try:
             if rhohv_filter:
+                # commented is the code to read the data in the proprietary format. Here we alternatively add the possibility to load the data from a numpy file.
                 # rhohv = radlib.read_file(
                 #     file=mlx_path, physic_value=True, moment="RHO"
                 # ).data
@@ -216,7 +218,7 @@ def polar_to_cartesian_composite(
 
     for rad in algorithm_config["rad_list"]:
         # if bias_correction:
-        # could be reimplemented for bias correction
+        # could be reimplemented for bias correction. Bias values upon request.
         bias_value = 0
 
         try:
